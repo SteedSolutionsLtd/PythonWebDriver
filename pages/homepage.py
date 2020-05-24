@@ -5,7 +5,7 @@ class HomePage:
 
     URL = "https://www.google.co.uk"
 
-    SEARCH_INPUT = (By.ID, 'the_id_here')
+    SEARCH_INPUT = (By.NAME, 'q')
 
     def __init__(self, browser):
         self.browser = browser
@@ -16,3 +16,6 @@ class HomePage:
     def search(self, searchTerm):
         searchInput = self.browser.find_element(*self.SEARCH_INPUT)
         searchInput.send_keys(searchTerm + Keys.RETURN)
+
+    def title(self):
+        return self.browser.title
