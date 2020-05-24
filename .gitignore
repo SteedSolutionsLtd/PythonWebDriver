@@ -1,29 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@SteedSolutionsLtd 
-AndyLPK247
-/
-tau-intro-selenium-py
-3
-69
- Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-tau-intro-selenium-py/.gitignore
-@AndyLPK247 AndyLPK247 added IDEs to .gitignore
-8419382 on 25 Aug 2019
-109 lines (88 sloc)  1.2 KB
-  
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

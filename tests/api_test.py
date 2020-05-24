@@ -1,4 +1,4 @@
-from api.request_builder import RequestBuilder
+from request.request_builder import RequestBuilder
 
 def test_api():
     requestBuilder = RequestBuilder('https://httpbin.org/post')
